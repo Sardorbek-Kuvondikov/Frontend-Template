@@ -79,3 +79,67 @@ bootstrapCopy.addEventListener("click", (evt) => {
     }
   );
 });
+
+// Font Awesome copy CDN
+const fontAwesomr = document.querySelector(".js-fontawesome-cdn");
+
+const fontAwesomeCopy = `
+  <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+  `.trim();
+
+fontAwesomr.addEventListener("click", (evt) => {
+  evt.preventDefault();
+  navigator.clipboard.writeText(fontAwesomeCopy).then(
+    () => {
+      document.querySelector(".js-font-copied").classList.remove("tw-hidden");
+      document.querySelector(".js-font-copy-code").classList.add("tw-hidden");
+      setTimeout(() => {
+        document.querySelector(".js-font-copied").classList.add("tw-hidden");
+        document
+          .querySelector(".js-font-copy-code")
+          .classList.remove("tw-hidden");
+      }, 2000);
+    },
+    (err) => {
+      alert("Failed to copy code: " + err);
+    }
+  );
+});
+
+// Tailwindcss Config copy CDN
+const tailConfig = document.querySelector(".js-tailwindcss-config-cdn");
+
+const tailConfigCopy = `
+        boxShadow: {
+        custom: "rgba(0, 0, 0, 0.09) 0px 3px 12px;",
+        customBlue: "0px 0px 3px 4px rgba(59, 130, 246, 0.4)",
+        customGray: "0px 0px 3px 4px rgba(210,210,210,0.4)",
+      },
+  `.trim();
+
+tailConfig.addEventListener("click", (evt) => {
+  evt.preventDefault();
+  navigator.clipboard.writeText(tailConfigCopy).then(
+    () => {
+      document
+        .querySelector(".js-tailconfig-copied")
+        .classList.remove("tw-hidden");
+      document
+        .querySelector(".js-tailconfig-copy-code")
+        .classList.add("tw-hidden");
+      setTimeout(() => {
+        document
+          .querySelector(".js-tailconfig-copied")
+          .classList.add("tw-hidden");
+        document
+          .querySelector(".js-tailconfig-copy-code")
+          .classList.remove("tw-hidden");
+      }, 2000);
+    },
+    (err) => {
+      alert("Failed to copy code: " + err);
+    }
+  );
+});

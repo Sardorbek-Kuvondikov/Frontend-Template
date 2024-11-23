@@ -99,6 +99,123 @@ function buttonClickFn(num) {
       }
     );
   }
+  if (num === 8) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
+  if (num === 9) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
+  if (num === 10) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
+  if (num === 11) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
+  if (num === 12) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
+  if (num === 13) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
+  if (num === 14) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
+  if (num === 15) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
+  if (num === 16) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
 }
 
 // Show Code

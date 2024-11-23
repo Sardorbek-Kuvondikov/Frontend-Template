@@ -25,7 +25,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
     />
   </head>
-  <body>
+  <body class="tw-text-[#494B71]">
     <!-- Site Header Start -->
     <header class="tw-p-[15px] tw-bg-[#EEEFF1] shadow-custom">
       <div class="tw-flex tw-items-center tw-justify-between">
@@ -260,6 +260,13 @@
       <main class="tw-flex-1 tw-h-full tw-p-4 tw-bg-[#FFF] tw-overflow-y-auto">
         <section id="section-Installation" class="section">
           <div class="container">
+            <h2 class="tw-text-[24px] tw-font-[600] tw-text-center">
+              Installation
+            </h2>
+            <p class="tw-text-[14px] tw-text-center">
+              <span class="tw-text-[16px] font-[600]">Note:</span> Things to do
+              before starting
+            </p>
             <div class="tw-mt-3 tw-flex">
               <div
                 class="tw-flex-[50%] tw-pr-[12px] tw-border-r-2 border-zinc-300"
@@ -292,7 +299,7 @@
                           class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 js-tail-copy-code"
                         >
                           <i
-                            class="fa-regular fa-copy tw-text-[#9535FB] tw-text-[16px]"
+                            class="fa-regular fa-copy tw-text-[#0D9DDE] tw-text-[16px]"
                           ></i>
                           copy code
                         </span>
@@ -382,13 +389,96 @@
                 </div>
               </div>
             </div>
+            <div class="tw-mt-[30px] tw-flex tw-gap-x-5">
+              <p class="flex-1 tw-pt-3">
+                <span class="tw-mb-3 tw-inline-block tw-font-[600]"
+                  >Note:
+                </span>
+                This code will be placed below the title.
+                <br />
+                Font Awesome is a popular icon library that provides a wide
+                range of scalable vector icons, which can be used in web and
+                mobile applications. It allows developers to include icons in
+                their projects easily without needing to create or customize
+                them from scratch. These icons are vector-based, meaning they
+                can scale to any size without losing quality.
+              </p>
+              <div class="flex-1">
+                <div
+                  class="tw-p-[8px] tw-w-[100%] tw-flex tw-items-center tw-justify-between tw-bg-[#2B2936] tw-rounded-tl-[8px] tw-rounded-tr-[8px] tw-text-[white] border-b"
+                >
+                  <h2>CDN</h2>
+                  <button
+                    title="Copy code"
+                    class="hover:tw-cursor-pointer tw-mr-[5px] js-fontawesome-cdn"
+                  >
+                    <span
+                      class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 js-font-copy-code"
+                    >
+                      <i class="fa-regular fa-copy tw-text-[16px]"></i>
+                      copy code
+                    </span>
+                    <span
+                      class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-hidden js-font-copied"
+                    >
+                      <i class="fa-solid fa-check"></i>
+                      Copied!
+                    </span>
+                  </button>
+                </div>
+                <img
+                  class="tw-w-[100%] tw-rounded-b-[8px]"
+                  src="./assets/images/font awesome.png"
+                  alt="fonr awesome"
+                />
+              </div>
+            </div>
+
+            <div class="tw-mt-[30px] tw-mb-[80px] tw-flex tw-gap-x-5">
+              <div class="flex-1">
+                <div
+                  class="tw-p-[8px] tw-w-[100%] tw-flex tw-items-center tw-justify-between tw-bg-[#2B2936] tw-rounded-tl-[8px] tw-rounded-tr-[8px] tw-text-[white] border-b"
+                >
+                  <h2>CDN</h2>
+                  <button
+                    title="Copy code"
+                    class="hover:tw-cursor-pointer tw-mr-[5px] js-tailwindcss-config-cdn"
+                  >
+                    <span
+                      class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 js-tailconfig-copy-code"
+                    >
+                      <i class="fa-regular fa-copy tw-text-[16px]"></i>
+                      copy code
+                    </span>
+                    <span
+                      class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-hidden js-tailconfig-copied"
+                    >
+                      <i class="fa-solid fa-check"></i>
+                      Copied!
+                    </span>
+                  </button>
+                </div>
+                <img
+                  class="tw-w-[100%] tw-rounded-b-[8px]"
+                  src="./assets/images/font awesome.png"
+                  alt="fonr awesome"
+                />
+              </div>
+              <p class="flex-1 tw-pt-2">
+                <span class="tw-mb-3 tw-inline-block tw-font-[600]"
+                  >Note:
+                </span>
+                This code is placed inside the extend in the
+                tailwindcss.config.js file.
+                <br />
+                The tailwind.config.js file is the configuration file for
+                Tailwind CSS. It allows developers to customize and extend
+                Tailwind's default settings to suit the specific needs of a
+                project. This file is automatically generated when you
+                initialize Tailwind CSS using the command:
+              </p>
+            </div>
           </div>
-          <!-- <div
-            class="tw-absolute tw-right-[15px] tw-top-[80px] tw-py-2 tw-px-5 tw-rounded tw-bg-green-600 tw-text-white tw-flex tw-items-center tw-gap-4 tw-translate-x-[200%] transition-all js-copied"
-          >
-            <p>Copied</p>
-            <i class="fa-solid fa-check"></i>
-          </div> -->
         </section>
 
         <!-- Site Buttons Start -->
@@ -396,22 +486,25 @@
           <div class="container">
             <div class="tw-p-3 tw-rounded">
               <div class="tw-text-center">
-                <h2 class="tw-text-[22px]">Buttons</h2>
-                <p class="tw-text-[12px]">
-                  <span class="tw-text-[14px] font-[600]">Note:</span> To copy
+                <h2 class="tw-text-[24px] tw-font-[600]">Buttons</h2>
+                <p class="tw-text-[14px]">
+                  <span class="tw-text-[16px] font-[600]">Note:</span> To copy
                   an element, simply click on it.
                 </p>
               </div>
               <div class="tw-mt-4 tw-flex">
                 <!-- Tailwindcss Examples Start -->
                 <div class="tw-flex-[50%] tw-pr-[12px] tw-border-r-2">
-                  <h3 class="tw-flex tw-items-center tw-justify-center">
+                  <h3
+                    class="tw-flex tw-items-center tw-justify-center tw-text-[18px] tw-font-[600]"
+                  >
                     Tailwindcss codes
                     <i
-                      class="fa-solid fa-pencil tw-ml-2 tw-text-[14px] tw-text-[#ADADAD]"
+                      class="fa-solid fa-pencil tw-ml-2 tw-text-[14px] tw-text-[#494B71]"
                     ></i>
                   </h3>
-                  <h4 class="tw-my-2">Examples</h4>
+                  <h4 class="tw-my-2 tw-font-[600]">Examples</h4>
+                  <!-- Normal Button Start -->
                   <div class="tw-rounded-[8px] tw-border">
                     <div
                       class="tw-p-3 tw-flex tw-items-center tw-gap-3 tw-flex-wrap"
@@ -496,68 +589,463 @@
                         </button>
                       </div>
                     </div>
-                    <div class="tw-flex tw-items-center tw-gap-2">
-                      <div class="tw-w-[100px] tw-h-[1px] tw-bg-gray-200"></div>
-                      <h3 class="tw-text-[14px] tw-font-[600]">Normal</h3>
-                      <div class="tw-w-full tw-h-[1px] tw-bg-gray-200"></div>
-                    </div>
-                    <p class="tw-pb-2 tw-text-[12px] tw-mx-[12px]">
-                      Through the type syntactic sugar, use the preset button
-                      styles: primary buttons, default buttons, dashed buttons,
-                      text buttons, and link buttons.
-                    </p>
-                    <ul
-                      class="tw-flex tw-items-center tw-justify-center tw-gap-2 tw-border-t tw-p-2"
-                    >
-                      <li class="tw-h-[20px]">
-                        <a
-                          target="_blank"
-                          href="https://t.me/Sardorbek_deve1oper"
-                          ><i
-                            class="fa-brands fa-telegram tw-text-[#66B8E0] tw-text-[16px] hover:tw-text-[#3781D8] tw-transition-all"
-                          ></i
-                        ></a>
-                      </li>
-                      <li class="tw-h-[20px]">
-                        <a target="_blank" href="https://www.youtube.com/"
-                          ><i
-                            class="fa-brands fa-youtube tw-text-[16px] tw-text-[#FF6F96] hover:tw-text-[#FF0033] tw-transition-all"
-                          ></i
-                        ></a>
-                      </li>
-                      <li class="hover:tw-cursor-pointer">
-                        <button
-                          class="tw-text-[#B1B1B1] tw-text-[14px] transition-all hover:tw-text-black focus:tw-text-black"
-                        >
-                          <i class="fa-solid fa-copy"></i>
-                        </button>
-                      </li>
-                      <li>
-                        <button
-                          class="tw-text-[#B1B1B1] tw-text-[13px] transition-all hover:tw-text-black focus:tw-text-black js-show-code"
-                        >
-                          <i class="fa-solid fa-code"></i>
-                        </button>
-                      </li>
-                    </ul>
-                    <div class="tw-px-[12px] tw-hidden js-element-code">
-                      <p class="tw-text-[14px]">
-                        <span class="tw-text-[16px] tw-font-[600]">1.</span> To
-                        copy an element, simply click on it.
+                    <div>
+                      <div class="tw-flex tw-items-center tw-gap-2">
+                        <div
+                          class="tw-w-[100px] tw-h-[1px] tw-bg-gray-200"
+                        ></div>
+                        <h3 class="tw-text-[15px] tw-font-[600]">Normal</h3>
+                        <div class="tw-w-full tw-h-[1px] tw-bg-gray-200"></div>
+                      </div>
+                      <p
+                        class="tw-pb-2 tw-pt-[6px] tw-text-[13px] tw-mx-[12px]"
+                      >
+                        Through the type syntactic sugar, use the preset button
+                        styles: primary buttons, default buttons, dashed
+                        buttons, text buttons, and link buttons.
                       </p>
+                      <ul
+                        class="tw-flex tw-items-center tw-justify-center tw-gap-3 tw-border-t tw-p-2"
+                      >
+                        <li class="tw-h-[20px]">
+                          <a
+                            target="_blank"
+                            href="https://t.me/Sardorbek_deve1oper"
+                            ><i
+                              class="fa-brands fa-telegram tw-text-[#66B8E0] tw-text-[18px] hover:tw-text-[#3781D8] tw-transition-all"
+                            ></i
+                          ></a>
+                        </li>
+                        <li class="tw-h-[20px]">
+                          <a target="_blank" href="https://www.youtube.com/"
+                            ><i
+                              class="fa-brands fa-youtube tw-text-[18px] tw-text-[#FF6F96] hover:tw-text-[#FF0033] tw-transition-all"
+                            ></i
+                          ></a>
+                        </li>
+                        <li class="hover:tw-cursor-pointer">
+                          <button
+                            class="tw-text-[#B1B1B1] tw-text-[16px] transition-all hover:tw-text-black focus:tw-text-black"
+                          >
+                            <i class="fa-solid fa-copy"></i>
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="tw-text-[#B1B1B1] tw-text-[15px] transition-all hover:tw-text-black focus:tw-text-black js-show-code"
+                          >
+                            <i class="fa-solid fa-code"></i>
+                          </button>
+                        </li>
+                      </ul>
+                      <div class="tw-px-[12px] tw-hidden js-element-code">
+                        <p class="tw-text-[14px]">
+                          <span class="tw-text-[16px] tw-font-[600]">1.</span>
+                          To copy an element, simply click on it.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Loading Start -->
+                  <div class="tw-mt-5 tw-rounded-[8px] tw-border">
+                    <div
+                      class="tw-p-3 tw-flex tw-items-center tw-gap-3 tw-flex-wrap"
+                    >
+                      <button
+                        onclick="buttonClickFn('8')"
+                        class="tw-py-2 tw-px-4 tw-rounded-[6px] tw-text-[14px] tw-text-white tw-bg-blue-400 tw-transition-all tw-duration-400 tw-ease-linear hover:tw-bg-blue-500 focus:shadow-customBlue focus:tw-bg-blue-500 tw-relative"
+                      >
+                        <div class="tw-flex tw-items-center tw-gap-2">
+                          <span>Loading</span>
+                          <i class="fa-solid fa-spinner slow-spin"></i>
+                          <style>
+                            .slow-spin {
+                              animation: slow-spin 1.5s linear infinite;
+                            }
+                            @keyframes slow-spin {
+                              0% {
+                                transform: rotate(0deg);
+                              }
+                              100% {
+                                transform: rotate(360deg);
+                              }
+                            }
+                          </style>
+                        </div>
+                        <span
+                          class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-bg-[#2F2F2F] tw-text-gray-300 tw-px-2 tw-py-1 tw-pb-3 tw-rounded tw-absolute tw-top-[-35px] tw-hidden btn-title js-btn-copy"
+                        >
+                          Copy
+                        </span>
+                      </button>
+
+                      <button
+                        onclick="buttonClickFn('9')"
+                        class="tw-py-2 tw-px-4 tw-rounded-[6px] tw-text-[13px] tw-text-white tw-bg-blue-400 tw-transition-all tw-duration-400 tw-ease-linear focus:shadow-customBlue active:tw-bg-blue-500 tw-relative"
+                      >
+                        <div class="tw-flex tw-items-center tw-gap-2">
+                          <span>Loading</span>
+                          <i class="fa-solid fa-spinner slow-spin"></i>
+                          <style>
+                            .slow-spin {
+                              animation: slow-spin 1.5s linear infinite;
+                            }
+                            @keyframes slow-spin {
+                              0% {
+                                transform: rotate(0deg);
+                              }
+                              100% {
+                                transform: rotate(360deg);
+                              }
+                            }
+                          </style>
+                        </div>
+                        <span
+                          class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-bg-[#2F2F2F] tw-text-gray-300 tw-px-2 tw-py-1 tw-pb-3 tw-rounded tw-absolute tw-top-[-35px] tw-hidden btn-title js-btn-copy"
+                        >
+                          Copy
+                        </span>
+                      </button>
+
+                      <button
+                        onclick="buttonClickFn('15')"
+                        class="tw-py-2 tw-px-4 tw-rounded-[6px] tw-text-[14px] tw-text-white tw-bg-blue-400 tw-transition-all tw-duration-400 tw-ease-linear hover:tw-bg-blue-500 focus:shadow-customBlue focus:tw-bg-blue-500 tw-relative plat-to-spinner"
+                      >
+                        <div class="tw-flex tw-items-center tw-gap-2">
+                          <span>Loading</span>
+                          <i class="fa-solid fa-play spinner-pay"></i>
+                          <i
+                            class="fa-solid fa-spinner tw-hidden slow-spin play-spinner"
+                          ></i>
+                          <style>
+                            .slow-spin {
+                              animation: slow-spin 1.5s linear infinite;
+                            }
+                            @keyframes slow-spin {
+                              0% {
+                                transform: rotate(0deg);
+                              }
+                              100% {
+                                transform: rotate(360deg);
+                              }
+                            }
+                          </style>
+                          <script>
+                            document
+                              .querySelector(".plat-to-spinner")
+                              .addEventListener("click", () => {
+                                document
+                                  .querySelector(".play-spinner")
+                                  .classList.remove("tw-hidden");
+                                document
+                                  .querySelector(".spinner-pay")
+                                  .classList.add("tw-hidden");
+                              });
+                          </script>
+                        </div>
+                        <span
+                          class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-bg-[#2F2F2F] tw-text-gray-300 tw-px-2 tw-py-1 tw-pb-3 tw-rounded tw-absolute tw-top-[-35px] tw-hidden btn-title js-btn-copy"
+                        >
+                          Copy
+                        </span>
+                      </button>
+
+                      <button
+                        onclick="buttonClickFn('16')"
+                        class="tw-py-2 tw-px-4 tw-rounded-[6px] tw-text-[13px] tw-text-white tw-bg-blue-400 tw-transition-all tw-duration-400 tw-ease-linear focus:shadow-customBlue active:tw-bg-blue-500 tw-relative play-tosmall-spinner"
+                      >
+                        <div class="tw-flex tw-items-center tw-gap-2">
+                          <span>Loading</span>
+                          <i class="fa-solid fa-play spinner-small-pay"></i>
+                          <i
+                            class="fa-solid fa-spinner tw-hidden slow-spin play-small-spinner"
+                          ></i>
+                          <style>
+                            .slow-spin {
+                              animation: slow-spin 1.5s linear infinite;
+                            }
+                            @keyframes slow-spin {
+                              0% {
+                                transform: rotate(0deg);
+                              }
+                              100% {
+                                transform: rotate(360deg);
+                              }
+                            }
+                          </style>
+                          <script>
+                            document
+                              .querySelector(".play-tosmall-spinner")
+                              .addEventListener("click", () => {
+                                document
+                                  .querySelector(".play-small-spinner")
+                                  .classList.remove("tw-hidden");
+                                document
+                                  .querySelector(".spinner-small-pay")
+                                  .classList.add("tw-hidden");
+                              });
+                          </script>
+                        </div>
+                        <span
+                          class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-bg-[#2F2F2F] tw-text-gray-300 tw-px-2 tw-py-1 tw-pb-3 tw-rounded tw-absolute tw-top-[-35px] tw-hidden btn-title js-btn-copy"
+                        >
+                          Copy
+                        </span>
+                      </button>
+
+                      <button
+                        onclick="buttonClickFn('12')"
+                        class="tw-py-2 tw-px-4 tw-rounded-[6px] tw-text-white tw-bg-blue-400 tw-transition-all tw-duration-400 tw-ease-linear focus:shadow-customBlue tw-relative alone-play-to-spiner"
+                      >
+                        <div class="tw-flex tw-items-center tw-gap-2">
+                          <i class="fa-solid fa-play alone-play"></i>
+                          <i
+                            class="fa-solid fa-spinner tw-hidden slow-spin alone-spiner"
+                          ></i>
+                          <style>
+                            .slow-spin {
+                              animation: slow-spin 1.5s linear infinite;
+                            }
+                            @keyframes slow-spin {
+                              0% {
+                                transform: rotate(0deg);
+                              }
+                              100% {
+                                transform: rotate(360deg);
+                              }
+                            }
+                          </style>
+                          <script>
+                            document
+                              .querySelector(".alone-play-to-spiner")
+                              .addEventListener("click", () => {
+                                document
+                                  .querySelector(".alone-spiner")
+                                  .classList.remove("tw-hidden");
+                                document
+                                  .querySelector(".alone-play")
+                                  .classList.add("tw-hidden");
+                              });
+                          </script>
+                        </div>
+                        <span
+                          class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-bg-[#2F2F2F] tw-text-gray-300 tw-px-2 tw-py-1 tw-pb-3 tw-rounded tw-absolute tw-top-[-35px] tw-hidden btn-title js-btn-copy"
+                        >
+                          Copy
+                        </span>
+                      </button>
+
+                      <div class="tw-flex tw-items-center tw-gap-4">
+                        <button
+                          onclick="buttonClickFn('10')"
+                          class="tw-py-2 tw-px-4 tw-rounded-[6px] tw-text-[14px] tw-transition-all tw-duration-400 tw-ease-linear tw-border tw-text-gray-400 focus:shadow-customGray tw-relative"
+                        >
+                          <div class="tw-flex tw-items-center tw-gap-2">
+                            <span>Loading</span>
+                            <i class="fa-solid fa-spinner slow-spin"></i>
+                            <style>
+                              .slow-spin {
+                                animation: slow-spin 1.5s linear infinite;
+                              }
+                              @keyframes slow-spin {
+                                0% {
+                                  transform: rotate(0deg);
+                                }
+                                100% {
+                                  transform: rotate(360deg);
+                                }
+                              }
+                            </style>
+                          </div>
+                          <span
+                            class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-bg-[#2F2F2F] tw-text-gray-300 tw-px-2 tw-py-1 tw-pb-3 tw-rounded tw-absolute tw-top-[-35px] tw-hidden btn-title js-btn-copy"
+                          >
+                            Copy
+                          </span>
+                        </button>
+
+                        <button
+                          onclick="buttonClickFn('11')"
+                          class="tw-py-2 tw-px-4 tw-rounded-[6px] tw-text-[13px] tw-transition-all tw-duration-400 tw-ease-linear tw-border tw-text-gray-400 focus:shadow-customGray tw-relative play-gray-spinner"
+                        >
+                          <div class="tw-flex tw-items-center tw-gap-2">
+                            <span>Loading</span>
+                            <i class="fa-solid fa-play gray-spiner"></i>
+                            <i
+                              class="fa-solid fa-spinner tw-hidden slow-spin gray-play"
+                            ></i>
+                            <style>
+                              .slow-spin {
+                                animation: slow-spin 1.5s linear infinite;
+                              }
+                              @keyframes slow-spin {
+                                0% {
+                                  transform: rotate(0deg);
+                                }
+                                100% {
+                                  transform: rotate(360deg);
+                                }
+                              }
+                            </style>
+                            <script>
+                              document
+                                .querySelector(".play-gray-spinner")
+                                .addEventListener("click", () => {
+                                  document
+                                    .querySelector(".gray-play")
+                                    .classList.remove("tw-hidden");
+                                  document
+                                    .querySelector(".gray-spiner")
+                                    .classList.add("tw-hidden");
+                                });
+                            </script>
+                          </div>
+                          <span
+                            class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-bg-[#2F2F2F] tw-text-gray-300 tw-px-2 tw-py-1 tw-pb-3 tw-rounded tw-absolute tw-top-[-35px] tw-hidden btn-title js-btn-copy"
+                          >
+                            Copy
+                          </span>
+                        </button>
+
+                        <button
+                          onclick="buttonClickFn('13')"
+                          class="tw-py-2 tw-px-4 tw-rounded-[6px] tw-text-gray-400 tw-transition-all tw-duration-400 tw-ease-linear tw-border focus:shadow-customGray tw-relative"
+                        >
+                          <div class="tw-flex tw-items-center tw-gap-2">
+                            <i class="fa-solid fa-spinner slow-spin"></i>
+                            <style>
+                              .slow-spin {
+                                animation: slow-spin 1.5s linear infinite;
+                              }
+                              @keyframes slow-spin {
+                                0% {
+                                  transform: rotate(0deg);
+                                }
+                                100% {
+                                  transform: rotate(360deg);
+                                }
+                              }
+                            </style>
+                          </div>
+                          <span
+                            class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-bg-[#2F2F2F] tw-text-gray-300 tw-px-2 tw-py-1 tw-pb-3 tw-rounded tw-absolute tw-top-[-35px] tw-hidden btn-title js-btn-copy"
+                          >
+                            Copy
+                          </span>
+                        </button>
+
+                        <button
+                          onclick="buttonClickFn('14')"
+                          class="tw-py-2 tw-px-4 tw-rounded-[6px] tw-text-gray-400 tw-transition-all tw-duration-400 tw-ease-linear tw-border focus:shadow-customGray tw-relative alone-notbg-spiner"
+                        >
+                          <div class="tw-flex tw-items-center tw-gap-2">
+                            <i class="fa-solid fa-play alone-notbg-play"></i>
+                            <i
+                              class="fa-solid fa-spinner tw-hidden slow-spin alone-notbg-playto-spiner"
+                            ></i>
+                            <style>
+                              .slow-spin {
+                                animation: slow-spin 1.5s linear infinite;
+                              }
+                              @keyframes slow-spin {
+                                0% {
+                                  transform: rotate(0deg);
+                                }
+                                100% {
+                                  transform: rotate(360deg);
+                                }
+                              }
+                            </style>
+                            <script>
+                              document
+                                .querySelector(".alone-notbg-spiner")
+                                .addEventListener("click", () => {
+                                  document
+                                    .querySelector(".alone-notbg-playto-spiner")
+                                    .classList.remove("tw-hidden");
+                                  document
+                                    .querySelector(".alone-notbg-play")
+                                    .classList.add("tw-hidden");
+                                });
+                            </script>
+                          </div>
+                          <span
+                            class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-bg-[#2F2F2F] tw-text-gray-300 tw-px-2 tw-py-1 tw-pb-3 tw-rounded tw-absolute tw-top-[-35px] tw-hidden btn-title js-btn-copy"
+                          >
+                            Copy
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="tw-flex tw-items-center tw-gap-2">
+                        <div
+                          class="tw-w-[100px] tw-h-[1px] tw-bg-gray-200"
+                        ></div>
+                        <h3 class="tw-text-[15px] tw-font-[600]">Loading</h3>
+                        <div class="tw-w-full tw-h-[1px] tw-bg-gray-200"></div>
+                      </div>
+                      <p
+                        class="tw-pb-2 tw-pt-[6px] tw-text-[13px] tw-mx-[12px]"
+                      >
+                        A loading indicator can be added to a button by setting
+                        the loading property on the Button.
+                      </p>
+                      <ul
+                        class="tw-flex tw-items-center tw-justify-center tw-gap-3 tw-border-t tw-p-2"
+                      >
+                        <li class="tw-h-[20px]">
+                          <a
+                            target="_blank"
+                            href="https://t.me/Sardorbek_deve1oper"
+                            ><i
+                              class="fa-brands fa-telegram tw-text-[#66B8E0] tw-text-[18px] hover:tw-text-[#3781D8] tw-transition-all"
+                            ></i
+                          ></a>
+                        </li>
+                        <li class="tw-h-[20px]">
+                          <a target="_blank" href="https://www.youtube.com/"
+                            ><i
+                              class="fa-brands fa-youtube tw-text-[18px] tw-text-[#FF6F96] hover:tw-text-[#FF0033] tw-transition-all"
+                            ></i
+                          ></a>
+                        </li>
+                        <li class="hover:tw-cursor-pointer">
+                          <button
+                            class="tw-text-[#B1B1B1] tw-text-[16px] transition-all hover:tw-text-black focus:tw-text-black"
+                          >
+                            <i class="fa-solid fa-copy"></i>
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="tw-text-[#B1B1B1] tw-text-[15px] transition-all hover:tw-text-black focus:tw-text-black js-show-code"
+                          >
+                            <i class="fa-solid fa-code"></i>
+                          </button>
+                        </li>
+                      </ul>
+                      <div class="tw-px-[12px] tw-hidden js-element-code">
+                        <p class="tw-text-[14px]">
+                          <span class="tw-text-[16px] tw-font-[600]">1.</span>
+                          To copy an element, simply click on it.
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
                 <!-- Tailwindcss Examples End -->
                 <!-- Bootstrap Examples Start -->
                 <div class="tw-flex-[50%] tw-pl-[12px]">
-                  <h3 class="tw-flex tw-items-center tw-justify-center">
+                  <h3
+                    class="tw-flex tw-items-center tw-justify-center tw-text-[18px] tw-font-[600]"
+                  >
                     Bootstrap codes
                     <i
-                      class="fa-solid fa-pencil tw-ml-2 tw-text-[14px] tw-text-[#ADADAD]"
+                      class="fa-solid fa-pencil tw-ml-2 tw-text-[14px] tw-text-[#494B71]"
                     ></i>
                   </h3>
-                  <h4 class="tw-mt-">Examples</h4>
+                  <h4 class="tw-mt-2">Examples</h4>
                 </div>
                 <!-- Bootstrap Examples End -->
               </div>
