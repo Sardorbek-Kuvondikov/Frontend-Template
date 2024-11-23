@@ -22,7 +22,7 @@ text.forEach((item) => {
 });
 
 // Tailwidcss copy CDN
-const copyButton = document.querySelector(".js-tailwindcss-cdn");
+const tailwindcssCopy = document.querySelector(".js-tailwindcss-cdn");
 
 const codeToCopy = `
 <script src="https://cdn.tailwindcss.com"></script>
@@ -33,10 +33,46 @@ const codeToCopy = `
 </script>
 `.trim();
 
-copyButton.addEventListener("click", () => {
+tailwindcssCopy.addEventListener("click", () => {
   navigator.clipboard.writeText(codeToCopy).then(
     () => {
-      alert("Code copied to clipboard!");
+      document.querySelector(".js-tail-copied").classList.remove("tw-hidden");
+      document.querySelector(".js-tail-copy-code").classList.add("tw-hidden");
+      setTimeout(() => {
+        document.querySelector(".js-tail-copied").classList.add("tw-hidden");
+        document
+          .querySelector(".js-tail-copy-code")
+          .classList.remove("tw-hidden");
+      }, 2000);
+    },
+    (err) => {
+      alert("Failed to copy code: " + err);
+    }
+  );
+});
+
+// Bootstrap copy CDN
+const bootstrapCopy = document.querySelector(".js-bootstrap-cdn");
+
+const codeBootCopy = `
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  `.trim();
+
+bootstrapCopy.addEventListener("click", (evt) => {
+  evt.preventDefault();
+  navigator.clipboard.writeText(codeBootCopy).then(
+    () => {
+      document.querySelector(".js-boot-copied").classList.remove("tw-hidden");
+      document.querySelector(".js-bot-copy-code").classList.add("tw-hidden");
+      setTimeout(() => {
+        document.querySelector(".js-boot-copied").classList.add("tw-hidden");
+        document
+          .querySelector(".js-bot-copy-code")
+          .classList.remove("tw-hidden");
+      }, 2000);
     },
     (err) => {
       alert("Failed to copy code: " + err);

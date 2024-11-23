@@ -29,7 +29,7 @@
     <!-- Site Header Start -->
     <header class="tw-p-[15px] tw-bg-[#EEEFF1] shadow-custom">
       <div class="tw-flex tw-items-center tw-justify-between">
-        <h1 class="tw-pr-[82px] tw-border-r-2">
+        <h1 class="tw-pr-[110px] tw-border-r-2">
           <a class="tw-flex tw-items-center tw-gap-3" href="./index.html">
             <img class="tw-w-[30px]" src="./assets/images/ant.svg" alt="ant" />
             <span class="tw-text-[18px] tw-font-semibold">SaR Template</span>
@@ -65,7 +65,7 @@
               ></a>
             </li>
             <li class="tw-h-[20px]">
-              <a target="_blank" href="#"
+              <a target="_blank" href="https://www.youtube.com/"
                 ><i
                   class="fa-brands fa-youtube tw-text-[20px] tw-text-[#FF6F96] hover:tw-text-[#FF0033] tw-transition-all"
                 ></i
@@ -112,7 +112,7 @@
     <div class="tw-flex tw-h-screen tw-overflow-hidden">
       <!-- Site Aside Start -->
       <aside
-        class="tw-w-[250px] tw-bg-[#EEEFF1] tw-h-[100vh] tw-h-full tw-p-4 tw-overflow-y-auto"
+        class="tw-w-[280px] tw-bg-[#EEEFF1] tw-h-[100vh] tw-h-full tw-p-4 tw-overflow-y-auto"
       >
         <ul class="tw-text-[14px] text">
           <li
@@ -122,7 +122,7 @@
           </li>
           <li
             onclick="navigateTo('section-Installation')"
-            class="mb-2 tw-p-[10px] tw-text-[#5E5E5E] rounded hover:tw-bg-[#ffffff98] hover:tw-transition-all hover:tw-cursor-pointer bg-active"
+            class="mb-2 tw-p-[10px] tw-text-[#5E5E5E] rounded hover:tw-bg-[#ffffff98] hover:tw-transition-all hover:tw-cursor-pointer"
           >
             Installation
           </li>
@@ -134,7 +134,7 @@
 
           <li
             onclick="navigateTo('section-buttons')"
-            class="mb-2 tw-p-[10px] tw-text-[#5E5E5E] rounded hover:tw-bg-[#ffffff98] hover:tw-transition-all hover:tw-cursor-pointer"
+            class="mb-2 tw-p-[10px] tw-text-[#5E5E5E] rounded hover:tw-bg-[#ffffff98] hover:tw-transition-all hover:tw-cursor-pointer bg-active"
           >
             Buttons
           </li>
@@ -258,7 +258,7 @@
 
       <!-- Site Main Start-->
       <main class="tw-flex-1 tw-h-full tw-p-4 tw-bg-[#FFF] tw-overflow-y-auto">
-        <section id="section-Installation" class="section active">
+        <section id="section-Installation" class="section">
           <div class="container">
             <div class="tw-mt-3 tw-flex">
               <div
@@ -284,11 +284,24 @@
                       class="tw-p-[8px] tw-flex tw-items-center tw-justify-between tw-bg-[#2B2936] tw-rounded-tl-[8px] tw-rounded-tr-[8px] tw-text-[white] border-b"
                     >
                       <h2 class="tw-text-[#0D9DDE]">CDN</h2>
-                      <p>copy code</p>
                       <button
+                        title="Copy code"
                         class="hover:tw-cursor-pointer tw-mr-[5px] js-tailwindcss-cdn"
                       >
-                        <i title="Code copy" class="fa-regular fa-copy tw-text-[#0D9DDE]"></i>
+                        <span
+                          class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 js-tail-copy-code"
+                        >
+                          <i
+                            class="fa-regular fa-copy tw-text-[#9535FB] tw-text-[16px]"
+                          ></i>
+                          copy code
+                        </span>
+                        <span
+                          class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-hidden js-tail-copied"
+                        >
+                          <i class="fa-solid fa-check"></i>
+                          Copied!
+                        </span>
                       </button>
                     </div>
                     <img
@@ -341,9 +354,24 @@
                     class="tw-p-[8px] tw-flex tw-items-center tw-justify-between tw-bg-[#2B2936] tw-rounded-tl-[8px] tw-rounded-tr-[8px] tw-text-[white] border-b"
                   >
                     <h2 class="tw-text-[#9535FB]">CDN</h2>
-                    <p>copy code</p>
-                    <button class="hover:tw-cursor-pointer tw-mr-[5px]">
-                      <i class="fa-regular fa-copy tw-text-[#9535FB]"></i>
+                    <button
+                      title="Copy code"
+                      class="hover:tw-cursor-pointer tw-mr-[5px] js-bootstrap-cdn"
+                    >
+                      <span
+                        class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 js-bot-copy-code"
+                      >
+                        <i
+                          class="fa-regular fa-copy tw-text-[#9535FB] tw-text-[16px]"
+                        ></i>
+                        copy code
+                      </span>
+                      <span
+                        class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-hidden js-boot-copied"
+                      >
+                        <i class="fa-solid fa-check"></i>
+                        Copied!
+                      </span>
                     </button>
                   </div>
                   <img
@@ -355,14 +383,27 @@
               </div>
             </div>
           </div>
+          <!-- <div
+            class="tw-absolute tw-right-[15px] tw-top-[80px] tw-py-2 tw-px-5 tw-rounded tw-bg-green-600 tw-text-white tw-flex tw-items-center tw-gap-4 tw-translate-x-[200%] transition-all js-copied"
+          >
+            <p>Copied</p>
+            <i class="fa-solid fa-check"></i>
+          </div> -->
         </section>
 
         <!-- Site Buttons Start -->
-        <section id="section-buttons" class="section">
+        <section id="section-buttons" class="section active">
           <div class="container">
-            <div class="tw-p-3 tw-rounded shadow-custom">
-              <h2 class="tw-text-[22px] text-center">Buttons</h2>
+            <div class="tw-p-3 tw-rounded">
+              <div class="tw-text-center">
+                <h2 class="tw-text-[22px]">Buttons</h2>
+                <p class="tw-text-[12px]">
+                  <span class="tw-text-[14px] font-[600]">Note:</span> To copy
+                  an element, simply click on it.
+                </p>
+              </div>
               <div class="tw-mt-4 tw-flex">
+                <!-- Tailwindcss Examples Start -->
                 <div class="tw-flex-[50%] tw-pr-[12px] tw-border-r-2">
                   <h3 class="tw-flex tw-items-center tw-justify-center">
                     Tailwindcss codes
@@ -370,7 +411,145 @@
                       class="fa-solid fa-pencil tw-ml-2 tw-text-[14px] tw-text-[#ADADAD]"
                     ></i>
                   </h3>
+                  <h4 class="tw-my-2">Examples</h4>
+                  <div class="tw-rounded-[8px] tw-border">
+                    <div
+                      class="tw-p-3 tw-flex tw-items-center tw-gap-3 tw-flex-wrap"
+                    >
+                      <button
+                        onclick="buttonClickFn('1')"
+                        class="tw-py-2 tw-px-4 tw-rounded-[6px] tw-text-[13px] tw-text-white tw-bg-blue-400 tw-transition-all tw-duration-400 tw-ease-linear hover:tw-bg-blue-500 focus:shadow-customBlue focus:tw-bg-blue-500 tw-relative"
+                      >
+                        Primary Button
+                        <span
+                          class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-bg-[#2F2F2F] tw-text-gray-300 tw-px-2 tw-py-1 tw-pb-3 tw-rounded tw-absolute tw-top-[-35px] tw-hidden btn-title js-btn-copy"
+                        >
+                          Copy
+                        </span>
+                      </button>
+                      <button
+                        onclick="buttonClickFn('2')"
+                        class="tw-py-2 tw-px-4 tw-rounded-[6px] tw-text-[13px] tw-border tw-text-gray-400 hover:tw-border-[#1677FF] tw-transition-all tw-duration-400 tw-ease-linear hover:tw-text-[#1677FF] focus:shadow-customBlue focus:tw-text-[#1677FF] tw-relative"
+                      >
+                        Default Button
+                        <span
+                          class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-bg-[#2F2F2F] tw-text-gray-300 tw-px-2 tw-py-1 tw-pb-3 tw-rounded tw-absolute tw-top-[-35px] tw-hidden btn-title js-btn-copy"
+                        >
+                          Copy
+                        </span>
+                      </button>
+                      <button
+                        onclick="buttonClickFn('3')"
+                        class="tw-py-2 tw-px-4 tw-rounded-[6px] tw-text-[13px] tw-border tw-border-dashed tw-border-gray-300 tw-text-gray-400 tw-transition-all tw-duration-400 tw-ease-linear hover:tw-border-[#1677FF] hover:tw-text-[#1677FF] focus:shadow-customBlue focus:tw-text-[#1677FF] tw-relative"
+                      >
+                        Dashed Button
+                        <span
+                          class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-bg-[#2F2F2F] tw-text-gray-300 tw-px-2 tw-py-1 tw-pb-3 tw-rounded tw-absolute tw-top-[-35px] tw-hidden btn-title js-btn-copy"
+                        >
+                          Copy
+                        </span>
+                      </button>
+                      <div class="tw-flex tw-items-center tw-gap-4">
+                        <button
+                          onclick="buttonClickFn('4')"
+                          class="tw-py-2 tw-px-4 tw-rounded-[6px] tw-text-[13px] tw-transition-all tw-duration-400 tw-ease-linear hover:tw-bg-zinc-100 active:tw-bg-zinc-200 focus:shadow-customGray tw-relative"
+                        >
+                          Text Button
+                          <span
+                            class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-bg-[#2F2F2F] tw-text-gray-300 tw-px-2 tw-py-1 tw-pb-3 tw-rounded tw-absolute tw-top-[-35px] tw-hidden btn-title js-btn-copy"
+                          >
+                            Copy
+                          </span>
+                        </button>
+                        <button
+                          onclick="buttonClickFn('5')"
+                          class="tw-py-2 tw-px-4 tw-rounded-[6px] tw-text-[13px] tw-relative"
+                        >
+                          Text Button
+                          <span
+                            class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-bg-[#2F2F2F] tw-text-gray-300 tw-px-2 tw-py-1 tw-pb-3 tw-rounded tw-absolute tw-top-[-35px] tw-hidden btn-title js-btn-copy"
+                          >
+                            Copy
+                          </span>
+                        </button>
+                        <button
+                          onclick="buttonClickFn('6')"
+                          class="tw-py-2 tw-px-4 tw-rounded-[6px] tw-text-[13px] tw-text-[#60A5FA] tw-transition-all tw-duration-400 tw-ease-linear hover:tw-text-[#2788ff] hover:tw-bg-blue-100 focus:shadow-customBlue tw-relative"
+                        >
+                          Link Button
+                          <span
+                            class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-bg-[#2F2F2F] tw-text-gray-300 tw-px-2 tw-py-1 tw-pb-3 tw-rounded tw-absolute tw-top-[-35px] tw-hidden btn-title js-btn-copy"
+                          >
+                            Copy
+                          </span>
+                        </button>
+                        <button
+                          onclick="buttonClickFn('7')"
+                          class="tw-py-2 tw-px-4 tw-rounded-[6px] tw-text-[13px] tw-text-[#60A5FA] tw-relative"
+                        >
+                          Link Button
+                          <span
+                            class="tw-text-[13px] tw-flex tw-items-center tw-gap-2 tw-bg-[#2F2F2F] tw-text-gray-300 tw-px-2 tw-py-1 tw-pb-3 tw-rounded tw-absolute tw-top-[-35px] tw-hidden btn-title js-btn-copy"
+                          >
+                            Copy
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="tw-flex tw-items-center tw-gap-2">
+                      <div class="tw-w-[100px] tw-h-[1px] tw-bg-gray-200"></div>
+                      <h3 class="tw-text-[14px] tw-font-[600]">Normal</h3>
+                      <div class="tw-w-full tw-h-[1px] tw-bg-gray-200"></div>
+                    </div>
+                    <p class="tw-pb-2 tw-text-[12px] tw-mx-[12px]">
+                      Through the type syntactic sugar, use the preset button
+                      styles: primary buttons, default buttons, dashed buttons,
+                      text buttons, and link buttons.
+                    </p>
+                    <ul
+                      class="tw-flex tw-items-center tw-justify-center tw-gap-2 tw-border-t tw-p-2"
+                    >
+                      <li class="tw-h-[20px]">
+                        <a
+                          target="_blank"
+                          href="https://t.me/Sardorbek_deve1oper"
+                          ><i
+                            class="fa-brands fa-telegram tw-text-[#66B8E0] tw-text-[16px] hover:tw-text-[#3781D8] tw-transition-all"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="tw-h-[20px]">
+                        <a target="_blank" href="https://www.youtube.com/"
+                          ><i
+                            class="fa-brands fa-youtube tw-text-[16px] tw-text-[#FF6F96] hover:tw-text-[#FF0033] tw-transition-all"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="hover:tw-cursor-pointer">
+                        <button
+                          class="tw-text-[#B1B1B1] tw-text-[14px] transition-all hover:tw-text-black focus:tw-text-black"
+                        >
+                          <i class="fa-solid fa-copy"></i>
+                        </button>
+                      </li>
+                      <li>
+                        <button
+                          class="tw-text-[#B1B1B1] tw-text-[13px] transition-all hover:tw-text-black focus:tw-text-black js-show-code"
+                        >
+                          <i class="fa-solid fa-code"></i>
+                        </button>
+                      </li>
+                    </ul>
+                    <div class="tw-px-[12px] tw-hidden js-element-code">
+                      <p class="tw-text-[14px]">
+                        <span class="tw-text-[16px] tw-font-[600]">1.</span> To
+                        copy an element, simply click on it.
+                      </p>
+                    </div>
+                  </div>
                 </div>
+                <!-- Tailwindcss Examples End -->
+                <!-- Bootstrap Examples Start -->
                 <div class="tw-flex-[50%] tw-pl-[12px]">
                   <h3 class="tw-flex tw-items-center tw-justify-center">
                     Bootstrap codes
@@ -378,7 +557,9 @@
                       class="fa-solid fa-pencil tw-ml-2 tw-text-[14px] tw-text-[#ADADAD]"
                     ></i>
                   </h3>
+                  <h4 class="tw-mt-">Examples</h4>
                 </div>
+                <!-- Bootstrap Examples End -->
               </div>
             </div>
           </div>
@@ -389,7 +570,13 @@
         <section id="section-inputs" class="section">
           <div class="container">
             <div class="tw-p-3 tw-rounded shadow-custom">
-              <h2 class="tw-text-[22px] text-center">Inputs</h2>
+              <div class="tw-text-center">
+                <h2 class="tw-text-[22px]">Inputs</h2>
+                <p class="tw-text-[12px]">
+                  <span class="tw-text-[14px] font-[600]">Note:</span> To copy
+                  an element, simply click on it.
+                </p>
+              </div>
               <div class="tw-mt-4 tw-flex">
                 <div class="tw-flex-[50%] tw-pr-[12px] tw-border-r-2">
                   <h3 class="tw-flex tw-items-center tw-justify-center">
@@ -417,7 +604,13 @@
         <section id="section-dropdown" class="section">
           <div class="container">
             <div class="tw-p-3 tw-rounded shadow-custom">
-              <h2 class="tw-text-[22px] text-center">Dropdown</h2>
+              <div class="tw-text-center">
+                <h2 class="tw-text-[22px]">Dropdown</h2>
+                <p class="tw-text-[12px]">
+                  <span class="tw-text-[14px] font-[600]">Note:</span> To copy
+                  an element, simply click on it.
+                </p>
+              </div>
               <div class="tw-mt-4 tw-flex">
                 <div class="tw-flex-[50%] tw-pr-[12px] tw-border-r-2">
                   <h3 class="tw-flex tw-items-center tw-justify-center">
@@ -445,7 +638,13 @@
         <section id="section-menu" class="section">
           <div class="container">
             <div class="tw-p-3 tw-rounded shadow-custom">
-              <h2 class="tw-text-[22px] text-center">Menu</h2>
+              <div class="tw-text-center">
+                <h2 class="tw-text-[22px]">Menu</h2>
+                <p class="tw-text-[12px]">
+                  <span class="tw-text-[14px] font-[600]">Note:</span> To copy
+                  an element, simply click on it.
+                </p>
+              </div>
               <div class="tw-mt-4 tw-flex">
                 <div class="tw-flex-[50%] tw-pr-[12px] tw-border-r-2">
                   <h3 class="tw-flex tw-items-center tw-justify-center">
@@ -475,6 +674,10 @@
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    <!-- Main Js -->
     <script src="./assets/js/main.js"></script>
+
+    <!-- Copy Js -->
+    <script src="./assets/js/copy.js"></script>
   </body>
 </html>
