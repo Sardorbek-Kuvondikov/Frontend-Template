@@ -588,16 +588,8 @@ video {
   }
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
-}
-
-.top-\[100\%\] {
-  top: 100%;
 }
 
 .mb-2 {
@@ -606,14 +598,6 @@ video {
 
 .mb-3 {
   margin-bottom: 0.75rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
 }
 
 .ml-2 {
@@ -628,22 +612,12 @@ video {
   display: flex;
 }
 
-.w-full {
-  width: 100%;
+.hidden {
+  display: none;
 }
 
 .flex-1 {
   flex: 1 1 0%;
-}
-
-.rotate-90 {
-  --tw-rotate: 90deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.rotate-45 {
-  --tw-rotate: 45deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .transform {
@@ -654,20 +628,12 @@ video {
   cursor: pointer;
 }
 
-.items-center {
-  align-items: center;
-}
-
-.gap-3 {
-  gap: 0.75rem;
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .rounded {
   border-radius: 0.25rem;
-}
-
-.rounded-tl {
-  border-top-left-radius: 0.25rem;
 }
 
 .border-b {
@@ -684,25 +650,6 @@ video {
   border-color: rgb(212 212 216 / var(--tw-border-opacity, 1));
 }
 
-.border-red-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(252 165 165 / var(--tw-border-opacity, 1));
-}
-
-.bg-zinc-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(212 212 216 / var(--tw-bg-opacity, 1));
-}
-
-.bg-blue-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(96 165 250 / var(--tw-bg-opacity, 1));
-}
-
-.p-2 {
-  padding: 0.5rem;
-}
-
 .font-\[600\] {
   font-weight: 600;
 }
@@ -712,31 +659,10 @@ video {
   color: rgb(174 174 174 / var(--tw-text-opacity, 1));
 }
 
-.text-zinc-300 {
-  --tw-text-opacity: 1;
-  color: rgb(212 212 216 / var(--tw-text-opacity, 1));
-}
-
-.opacity-0 {
-  opacity: 0;
-}
-
 .shadow-custom {
   --tw-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;;
   --tw-shadow-colored: 0px 3px 12px; var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-customGray {
-  --tw-shadow: 0px 0px 3px 4px rgba(210,210,210,0.4);
-  --tw-shadow-colored: 0px 0px 3px 4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
 }
 
 .transition {
@@ -747,8 +673,10 @@ video {
   transition-duration: 150ms;
 }
 
-.duration-500 {
-  transition-duration: 500ms;
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 .duration-300 {
@@ -839,20 +767,14 @@ button:hover .btn-title {
   cursor: not-allowed;
 }
 
-.hover\:bg-zinc-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(212 212 216 / var(--tw-bg-opacity, 1));
+.hover\:border-red-500:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity, 1));
 }
 
 .hover\:shadow-custom:hover {
   --tw-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;;
   --tw-shadow-colored: 0px 3px 12px; var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.hover\:shadow-customGray:hover {
-  --tw-shadow: 0px 0px 3px 4px rgba(210,210,210,0.4);
-  --tw-shadow-colored: 0px 0px 3px 4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -871,4 +793,24 @@ button:hover .btn-title {
 .group:hover .group-hover\:rotate-0 {
   --tw-rotate: 0deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:focus .group-focus\:block {
+  display: block;
+}
+
+.group:focus .group-focus\:inline-block {
+  display: inline-block;
+}
+
+.group:focus .group-focus\:inline {
+  display: inline;
+}
+
+.group:focus .group-focus\:inline-flex {
+  display: inline-flex;
+}
+
+.group:focus .group-focus\:hidden {
+  display: none;
 }
