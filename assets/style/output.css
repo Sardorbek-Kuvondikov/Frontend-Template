@@ -600,20 +600,24 @@ video {
   margin-bottom: 0.75rem;
 }
 
+.ml-1 {
+  margin-left: 0.25rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .block {
   display: block;
 }
 
-.flex {
-  display: flex;
-}
-
-.hidden {
-  display: none;
+.inline-block {
+  display: inline-block;
 }
 
 .flex-1 {
@@ -634,6 +638,22 @@ video {
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-b {
@@ -657,6 +677,11 @@ video {
 .text-\[\#aeaeae\] {
   --tw-text-opacity: 1;
   color: rgb(174 174 174 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .shadow-custom {
@@ -767,11 +792,6 @@ button:hover .btn-title {
   cursor: not-allowed;
 }
 
-.hover\:border-red-500:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(239 68 68 / var(--tw-border-opacity, 1));
-}
-
 .hover\:shadow-custom:hover {
   --tw-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;;
   --tw-shadow-colored: 0px 3px 12px; var(--tw-shadow-color);
@@ -795,20 +815,8 @@ button:hover .btn-title {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.group:focus .group-focus\:block {
-  display: block;
-}
-
 .group:focus .group-focus\:inline-block {
   display: inline-block;
-}
-
-.group:focus .group-focus\:inline {
-  display: inline;
-}
-
-.group:focus .group-focus\:inline-flex {
-  display: inline-flex;
 }
 
 .group:focus .group-focus\:hidden {
