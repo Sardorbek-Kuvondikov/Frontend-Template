@@ -1,5 +1,5 @@
 # 👨🏻‍💻 Kimlar uchun
-- Bu loiha asosan Frontendchilar uchun kerak bo'ladi, qachonki Tailwindcss yokida Bootstrap dan foydalanganingizda.
+- Bu loyha asosan Frontendchilar uchun kerak bo'ladi, qachonki Tailwindcss yokida Bootstrap dan foydalanganingizda.
 - Bu loyhadan siz tayyor html strukturasi uchun ko'dlarni olishingiz memkin, olish uchun elementning ustiga bosishingiz kifoya
 ## 📝 Eslatma:
 - agarda bu templatedan foydalanmoqchi bo'lsangiz kerakli linklarni ulashingiz kerak bo'ladi. Buning uchun *Installation* bo'limiga o'ting va etibor bering
