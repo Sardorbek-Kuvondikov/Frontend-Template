@@ -18,8 +18,10 @@ Bu loyiha Frontendchilar uchun tayyorlangan oson ishlatiladigan HTML, CSS va Jav
 ## 📦 O'rnatish (Installation)
 Loyhani ishlatish uchun quyidagi qadamlarni bajaring:
 1. **Tailwindcss** yoki **Bootstrap** kutubhanalaridan foydalanganingizda ishlating!
-2. Agar siz Tailwindcss da veb-site qilayotgan bo'lsangiz va bu templatedan foydalanmoqchi bo'lsangiz, `Installation` bo'limidan tailwindcss.config 
+2. Agar siz Tailwindcss da veb-site qilayotgan bo'lsangiz va bu templatedan foydalanmoqchi bo'lsangiz, `Installation` bo'limidan **tailwindcss.config** CDN va **Tailwindcss.config.js** codes o'z loyhangizga joylang!
+3. Agar siz Bootstrap da veb-site qilayotgan bo'lsangiz, `Installation` bo'limida **Bootstrap** CDN va **Bootstrap.js** codes ni o'z loyhangizga joylang!
 
+---
 
 ## ⚒️ Qo'llanilgan Texnologiyalar
 [![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) 
