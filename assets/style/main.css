@@ -65,4 +65,15 @@ button:hover .btn-title {
     0% 75%
   );
 }
+
+/* Bootstrap Code Start */
+.btn {
+  opacity: 65%;
+  transition: all 0.5s ease;
+  font-size: 14px !important;
+  &:hover {
+    opacity: 90% !important;
+  }
+}
+
 /* Handle Code End */
