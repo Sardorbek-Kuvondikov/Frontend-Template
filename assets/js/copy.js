@@ -2338,6 +2338,97 @@ function buttonClickFn(num) {
       }
     );
   }
+  if (num === 172) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
+  if (num === 173) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
+  if (num === 174) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
+  if (num === 175) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
+  if (num === 176) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
+  if (num === 177) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
+  if (num === 178) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
 }
 
 // Show Code

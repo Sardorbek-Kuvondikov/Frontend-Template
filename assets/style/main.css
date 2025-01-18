@@ -75,5 +75,9 @@ button:hover .btn-title {
     opacity: 100% !important;
   }
 }
+.custom-btn {
+  position: relative;
+  overflow: hidden;
+}
 
 /* Handle Code End */
