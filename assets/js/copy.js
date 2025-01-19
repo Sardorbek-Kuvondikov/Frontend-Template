@@ -2429,6 +2429,19 @@ function buttonClickFn(num) {
       }
     );
   }
+  if (num === 179) {
+    navigator.clipboard.writeText(buttonHTML).then(
+      () => {
+        copiedSpan.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+        setTimeout(() => {
+          copiedSpan.innerHTML = `Copy`;
+        }, 2000);
+      },
+      (err) => {
+        alert("Failed to copy code: " + err);
+      }
+    );
+  }
 }
 
 // Show Code
