@@ -38,9 +38,10 @@ Loyhani ishlatish uchun quyidagi qadamlarni bajaring:
 
 ---
 
-<h2> 📈 Kunlik o'zgarishlar</h2>
+## 📈 Kunlik o'zgarishlar
 <p>loyhamga kiritilgan o'zgarishlarni added qilib borishni rejalashtirdim.</p>
-<p><strong>01.19.2025: </strong> Bootstrap buttonlar qo'shildi</p>
+<p><strong>01.19.2025: </strong> Bootstrap buttonlar qo'shildi.</p>
+
 ---
 
 <div align="center">
