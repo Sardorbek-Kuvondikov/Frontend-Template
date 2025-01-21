@@ -40,7 +40,7 @@ Loyhani ishlatish uchun quyidagi qadamlarni bajaring:
 ---
 
 ## 📈 Kunlik o'zgarishlar
-<p>loyhamga kiritilgan o'zgarishlarni added qilib borishni rejalashtirdim.</p>
+<p>loyhamga kiritilgan o'zgarishlarni qo'shib borishni rejalashtirdim.</p>
 <p><strong>01.19.2025: </strong> Bootstrap buttonlar qo'shildi.</p>
 
 ---
