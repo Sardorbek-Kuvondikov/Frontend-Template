@@ -39,12 +39,6 @@ Loyhani ishlatish uchun quyidagi qadamlarni bajaring:
 
 ---
 
-## 📈 Kunlik o'zgarishlar
-<p>loyhamga kiritilgan o'zgarishlarni qo'shib borishni rejalashtirdim.</p>
-<p><strong>01.19.2025: </strong> Bootstrap buttonlar qo'shildi.</p>
-
----
-
 <div align="center">
 </br>
 <a href="https://git.io/typing-svg" ><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25%&pause=1000&color=00abf0&center=true&vCenter=true&width=435&height=25%&lines=Tashrifingiz+uchun+raxmat !" alt="Typing SVG" /></a>
