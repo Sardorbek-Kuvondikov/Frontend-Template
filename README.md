@@ -1,6 +1,6 @@
 # 🏠 Frontend Template
 
-Bu loyiha Frontendchilar uchun tayyorlangan oson ishlatiladigan HTML, CSS va JavaScript kodlarini o'z ichiga olgan template hisoblanadi.
+Bu loyiha Frontendchilar uchun tayyorlangan oson ishlatiladigan HTML, CSS va JavaScript kodlarini o'z ichiga olgan template hisoblanadi. Bunda button, table, slider kabi tayyor tamplatelarni olishingiz mumkin buning uchun siz `Installation` bo'limiga o'ting va ko'rsatmalarga etibor bering.
 
 ---
 
