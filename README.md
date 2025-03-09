@@ -11,7 +11,8 @@ Bu loyiha Frontendchilar uchun tayyorlangan oson ishlatiladigan HTML, CSS va Jav
 
 ---
 
-## 📝 Eslatma
+## 📝 Eslatma:
+
 
 - Agarda ushbu **template**dan foydalanmoqchi bo'lsangiz, kerakli **linklarni ulashingiz** kerak bo'ladi.
 - Buning uchun `Installation` bo'limiga o'ting va ko'rsatmalarga rioya qiling.
