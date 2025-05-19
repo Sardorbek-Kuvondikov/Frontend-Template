@@ -4,7 +4,7 @@ Bu loyiha Frontendchilar uchun tayyorlangan oson ishlatiladigan HTML, CSS va Jav
 
 ---
 
-## 👨🏻‍💻 Kimlar uchun ?
+## 👨🏻‍💻 Kimlar uchun
 
 - **Frontendchilar** uchun qulay vosita, ayniqsa TailwindCSS yoki Bootstrap ishlatganda.
 - Tayyor **HTML strukturasi**ni olish uchun ishlatiladi. Faqat kerakli element ustiga bosishingiz kifoya, shu orqali kerakli kodni olasiz.
